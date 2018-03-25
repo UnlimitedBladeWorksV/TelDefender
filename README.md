@@ -1,0 +1,11 @@
+# 骚扰拦截系统(TelDefender)
+#### 本项目是一款基于Android手机平台的骚扰拦截系统。
+#### 使Android手机拥有管理、分享、载入黑名单，拦截黑名单号码的电话、短信的功能，并对骚扰电话进行录音取证。
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/1.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/2.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/3.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/4.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/5.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/6.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/7.png)
+![Image text](https://github.com/UnlimitedBladeWorksV/TelDefender/blob/master/images/8.png)
