@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--android:defaultValue 设置默认值-->
+    <!--android:key 在Preference里面存储的key,在代码中通过此key索引Preference对象-->
+    <!--android:title 标题-->
+    <!--android:summary 描述,对选项进一步补充描述    -->
+    <!--PreferenceCategory一组分类-->
+    <PreferenceCategory android:title="拦截设置">
+        <!--选择控件-->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="intercept_sp"
+            android:title="拦截开关"
+            android:text="拦截开关"/>
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory android:title="拦截规则">
+        <PreferenceScreen
+            android:key="blacklist_ps"
+            android:title="黑名单管理" >
+            <intent
+                android:action="start.blacelist"
+
+                android:targetClass="com.example.ag.teldefenders.BlackListActivity.class" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="intercept_auto"
+            android:title="智能拦截" />
+    </PreferenceCategory>
+    -->
+    <PreferenceCategory android:title="黑名单分享与导入">
+        <EditTextPreference
+            android:dialogTitle="分享路径："
+            android:key="editShare"
+            android:defaultValue="/sdcard/BlackListBackups/"
+            android:summary="/sdcard/BlackListBackups/"
+            android:title="分享路径" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:dialogTitle="导入路径"
+            android:key="editIn"
+            android:defaultValue="/sdcard/BlackListBackups/"
+            android:summary="/sdcard/BlackListBackups/"
+            android:title="导入路径" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="关于">
+        <PreferenceScreen
+            android:key="bata_info"
+            android:title="版本信息" />
+        <PreferenceScreen
+            android:key="aboutus_ps"
+            android:title="联系我们" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
